@@ -9,6 +9,8 @@ header, #main-section {
     color: #fff;
 }
 
+/* navbar */
+
 #nav-bar {
     width: 70%;
     height: auto;
@@ -16,15 +18,69 @@ header, #main-section {
     display: flex;
     padding-bottom: 1em;
     padding-top: .5em;
+    justify-content: center;
 }
 
 #nav-links {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
     list-style: none;
 }
 
 .nav-link {
     padding: 0 1em .5em 1em;
+}
+
+/* main section */
+
+#main-section {
+    width: 90%;
+    height: 70vh;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    width: 45%;
+    margin: 12rem 1em 12rem 0;
+    height: 10rem;
+}
+.col-2 {
+    width: 45%;
+    background-color: #9c9a9a;
+    height: 10rem;
+    margin: 12rem 0 12rem 1em;
+    position: relative;
+}
+
+#main-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.main-desc {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.placeholder-img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
